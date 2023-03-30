@@ -1,0 +1,44 @@
+Enter the message:
+Ignitarium Technology Solutions
+
+NumberOfCharacters = 32
+NumberOfBlocks = 2
+
+Original message in Hex:
+49 67 6e 69 74 61 72 69 75 6d 20 54 65 63 68 6e 6f 6c 6f 67 79 20 53 6f 6c 75 74 69 6f 6e 73 0a 
+
+Generating Key: 
+****Python****
+<type 'long'>
+8903858640989300370
+****END****
+
+GeneratedKey :
+32 34 39 32 38 31 35 35 30 39 31 31 39 34 31 32 
+size of key = 16 
+
+XORing with Key:
+
+After XOR:
+7b 53 57 5b 4c 50 47 5c 45 54 11 65 5c 57 59 5c 5d 58 56 55 41 11 66 5a 5c 4c 45 58 56 5a 42 38 
+
+After Encryption->HEX:
+ee fe fd c1 32 e9 d9 8f cc 11 c3 4c 31 9d ff 42 74 3b c3 ab d5 28 94 25 fc 06 e5 83 4c 6c 7d 68 
+
+After Encryption->ASCII:
+����2�ُ��L1��Bt;ë�(�%��Ll}h
+
+After Decryption->HEX:
+7b 53 57 5b 4c 50 47 5c 45 54 11 65 5c 57 59 5c 5d 58 56 55 41 11 66 5a 5c 4c 45 58 56 5a 42 38 
+
+After Decryption->ASCII:
+{SW[LPG\ETe\WY\]XVUAfZ\LEXVZB8
+
+XORing with Key:
+
+After XOR operation->HEX:
+49 67 6e 69 74 61 72 69 75 6d 20 54 65 63 68 6e 6f 6c 6f 67 79 20 53 6f 6c 75 74 69 6f 6e 73 0a 
+
+Final decrypted Message:
+Ignitarium Technology Solutions
+
