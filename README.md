@@ -20,6 +20,7 @@ Requirements:
 Dependancies:
           The libcrypto.so and libc.so(contains printf) share libraries are the dependencies.
           The linked libraries can be viewed by using the command
+          
           readelf -a a.out | grep Shared
   
   
