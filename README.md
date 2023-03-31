@@ -21,7 +21,9 @@ Dependancies:
           The libcrypto.so and libc.so(contains printf) share libraries are the dependencies.
           The linked libraries can be viewed by using the command
           readelf -a a.out | grep Shared
-          OutPut looks like:
+  
+  
+          OutPut of the command looks like:
   Type:                              DYN (Shared object file)
  0x0000000000000001 (NEEDED)             Shared library: [libcrypto.so.1.1]
  0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]
