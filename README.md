@@ -12,10 +12,10 @@ Requirements:
                     In my case,it Was in :/home/<username>/.PlayOnLinux/wine/linux-x86/1.4.1/lib
           
                 2. openssl library
-                    command to install : sudo apt-get install openssl
+                    sudo apt-get install openssl
                 
                 3.random module
-                    command to install : pip install random
+                    pip install random
           
 Dependancies:
           The libcrypto.so and libc.so(contains printf) share libraries are the dependencies.
