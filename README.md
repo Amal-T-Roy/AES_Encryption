@@ -2,8 +2,9 @@
 AES encryption using openssl implementation of AES and a random key generated using a python script
 
 
-Command:  gcc <file.c> -lcrypto
-          ./a.out
+Command:  gcc <file.c> -lcrypto  (or)  gcc <file.c> -lcrypto -o <Name of executable>
+
+Execute : ./a.out (or)  ./<Name of executable>
 
 Requirements:  
                 1. libcrypto.so
